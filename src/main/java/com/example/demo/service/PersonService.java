@@ -12,7 +12,7 @@ public class PersonService {
     }
 
     public int addPerson(Person person){
-        return 1;
+        return persondao.insertPerson(person);
     }
 
 }

@@ -12,4 +12,6 @@ public interface PersonDao {
 
         return insertPerson(id, person);
     }
+
+    int insertPerson(Person person);
 }
